@@ -86,6 +86,7 @@
       "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
       "outputPath": "/Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/obj/",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"
       ],
