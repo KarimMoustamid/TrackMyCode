@@ -46,8 +46,21 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.6.0.109712, )",
+              "versionCentrallyManaged": true
+            }
+          },
           "centralPackageVersions": {
-            "Microsoft.AspNetCore.OpenApi": "9.0.2"
+            "SonarAnalyzer.CSharp": "10.6.0.109712"
           },
           "imports": [
             "net461",

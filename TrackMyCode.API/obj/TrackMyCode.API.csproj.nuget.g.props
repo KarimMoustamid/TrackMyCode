@@ -12,4 +12,7 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="/Users/karimmoustamid/.nuget/packages/" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSonarAnalyzer_CSharp Condition=" '$(PkgSonarAnalyzer_CSharp)' == '' ">/Users/karimmoustamid/.nuget/packages/sonaranalyzer.csharp/10.6.0.109712</PkgSonarAnalyzer_CSharp>
+  </PropertyGroup>
 </Project>
