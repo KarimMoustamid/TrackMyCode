@@ -1,11 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "IlBav+qcviA=",
+  "dgSpecHash": "UCg2m62LE+0=",
   "success": true,
   "projectFilePath": "/Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/TrackMyCode.API.csproj",
   "expectedPackageFiles": [
-    "/Users/karimmoustamid/.nuget/packages/microsoft.aspnetcore.openapi/9.0.2/microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
-    "/Users/karimmoustamid/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
     "/Users/karimmoustamid/.nuget/packages/sonaranalyzer.csharp/10.6.0.109712/sonaranalyzer.csharp.10.6.0.109712.nupkg.sha512"
   ],
   "logs": []
