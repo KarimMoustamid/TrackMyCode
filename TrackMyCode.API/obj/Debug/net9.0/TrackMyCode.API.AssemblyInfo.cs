@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrackMyCode.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17b02df2df9a1ddfb3eb21d29fddab36a41f7d48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3801e1e275d97e0f760ffe6343259a97a803665")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrackMyCode.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrackMyCode.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
