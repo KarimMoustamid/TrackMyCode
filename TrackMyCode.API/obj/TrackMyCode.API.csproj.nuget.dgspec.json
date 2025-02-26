@@ -13,6 +13,7 @@
         "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
         "outputPath": "/Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/obj/",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"
@@ -45,11 +46,8 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[9.0.2, )"
-            }
+          "centralPackageVersions": {
+            "Microsoft.AspNetCore.OpenApi": "9.0.2"
           },
           "imports": [
             "net461",
