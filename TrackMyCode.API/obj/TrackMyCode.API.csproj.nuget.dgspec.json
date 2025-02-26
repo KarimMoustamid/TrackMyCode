@@ -40,8 +40,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -50,6 +49,31 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.11.1, )",
+              "versionCentrallyManaged": true
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.11.1, )",
+              "versionCentrallyManaged": true
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.11.0, )",
+              "versionCentrallyManaged": true
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.11.0, )",
+              "versionCentrallyManaged": true
+            },
+            "OpenTelemetry.Instrumentation.Runtime": {
+              "target": "Package",
+              "version": "[1.11.0, )",
               "versionCentrallyManaged": true
             },
             "SonarAnalyzer.CSharp": {
@@ -62,6 +86,11 @@
           },
           "centralPackageVersions": {
             "Microsoft.AspNetCore.OpenApi": "9.0.2",
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.11.1",
+            "OpenTelemetry.Extensions.Hosting": "1.11.1",
+            "OpenTelemetry.Instrumentation.AspNetCore": "1.11.0",
+            "OpenTelemetry.Instrumentation.Http": "1.11.0",
+            "OpenTelemetry.Instrumentation.Runtime": "1.11.0",
             "SonarAnalyzer.CSharp": "10.6.0.109712"
           },
           "imports": [

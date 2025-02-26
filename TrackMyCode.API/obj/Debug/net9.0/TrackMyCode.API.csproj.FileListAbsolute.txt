@@ -32,4 +32,11 @@
 /Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/obj/Debug/net9.0/TrackMyCode.API.pdb
 /Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/obj/Debug/net9.0/TrackMyCode.API.genruntimeconfig.cache
 /Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/obj/Debug/net9.0/ref/TrackMyCode.API.dll
-/Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/bin/Debug/net9.0/http-client.env.json
+/Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/bin/Debug/net9.0/OpenTelemetry.dll
+/Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/bin/Debug/net9.0/OpenTelemetry.Api.dll
+/Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/bin/Debug/net9.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll
+/Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/bin/Debug/net9.0/OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
+/Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/bin/Debug/net9.0/OpenTelemetry.Extensions.Hosting.dll
+/Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/bin/Debug/net9.0/OpenTelemetry.Instrumentation.AspNetCore.dll
+/Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/bin/Debug/net9.0/OpenTelemetry.Instrumentation.Http.dll
+/Users/karimmoustamid/Desktop/TrackMyCode/TrackMyCode.API/bin/Debug/net9.0/OpenTelemetry.Instrumentation.Runtime.dll

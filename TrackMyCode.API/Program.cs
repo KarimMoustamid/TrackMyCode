@@ -1,7 +1,28 @@
+using OpenTelemetry;
+using OpenTelemetry.Metrics;
+using OpenTelemetry.Resources;
+using OpenTelemetry.Trace;
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
+ // OpenTelemetry
+builder.Services.AddOpenTelemetry()
+    .ConfigureResource(resource => resource.AddService(builder.Environment.ApplicationName))
+    .WithTracing(tracing => tracing
+        .AddHttpClientInstrumentation()
+        .AddAspNetCoreInstrumentation())
+    .WithMetrics(metrics => metrics
+        .AddHttpClientInstrumentation()
+        .AddAspNetCoreInstrumentation()
+        .AddRuntimeInstrumentation())
+    .UseOtlpExporter();
+
+builder.Logging.AddOpenTelemetry(opts =>
+{
+    opts.IncludeScopes = true;
+    opts.IncludeFormattedMessage = true;
+});
 
 WebApplication app = builder.Build();
 

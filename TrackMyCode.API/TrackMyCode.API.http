@@ -1,4 +1,0 @@
-### Environment: dev
-
-GET {{TrackMyCode.API_HostAddress}}/weatherforecast
-Accept: application/json
