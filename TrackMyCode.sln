@@ -26,4 +26,7 @@ Global
 		{C2C9DA14-6501-4076-BFCD-96E45967AE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2C9DA14-6501-4076-BFCD-96E45967AE70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2C9DA14-6501-4076-BFCD-96E45967AE70} = {5B6849C6-3D55-4D7D-ABC4-3CD63BBB3087}
+	EndGlobalSection
 EndGlobal
