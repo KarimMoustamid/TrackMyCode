@@ -23,16 +23,16 @@ jobs:
 
       # Restore dependencies
       - name: Restore
-        run: dotnet restore TrackMyCode.sln
+        run: dotnet restore Solution/TrackMyCode.sln
 
       # Build the solution
       - name: Build
-        run: dotnet build TrackMyCode.sln --configuration Release --no-restore
+        run: dotnet build Solution/TrackMyCode.sln --configuration Release --no-restore
 
       # Run tests
       - name: Test
-        run: dotnet test TrackMyCode.sln --configuration Release --no-restore --no-build
+        run: dotnet test Solution/TrackMyCode.sln --configuration Release --no-restore --no-build
 
       # Publish artifacts
       - name: Publish
-        run: dotnet publish TrackMyCode.sln --configuration Release --no-restore --no-build
+        run: dotnet publish Solution/TrackMyCode.sln --configuration Release --no-restore --no-build
