@@ -1,5 +1,4 @@
 name: Build
-
 on:
   workflow_dispatch:
   push:
@@ -12,27 +11,28 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    defaults:
-      run:
-        working-directory: TrackMyCode
-
     steps:
+      # Check out the repository
       - uses: actions/checkout@v4
 
+      # Setup .NET environment
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
+      # Restore dependencies
       - name: Restore
         run: dotnet restore TrackMyCode.sln
 
+      # Build the solution
       - name: Build
         run: dotnet build TrackMyCode.sln --configuration Release --no-restore
 
+      # Run tests
       - name: Test
         run: dotnet test TrackMyCode.sln --configuration Release --no-restore --no-build
 
+      # Publish artifacts
       - name: Publish
         run: dotnet publish TrackMyCode.sln --configuration Release --no-restore --no-build
