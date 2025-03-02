@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/TrackMyCode.API.props" />
+</Project>
